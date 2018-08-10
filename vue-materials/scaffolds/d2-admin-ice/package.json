@@ -1,6 +1,6 @@
 {
-  "name": "@d2-admin/ice-scaffold",
-  "version": "1.2.6",
+  "name": "@oly-design/olydesign-admin-scaffold",
+  "version": "1.0.0",
   "description": "该模板默认支持多页模式，内置登陆验证、数据持久化、主题系统、字体图标库、多模式页面组件以及常用操作的封装等。",
   "author": "liyang <1711467488@qq.com>",
   "homepage": "https://fairyever.gitee.io/d2-admin-ice-preview/",
@@ -14,7 +14,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
     "better-scroll": "^1.12.1",
     "element-ui": "^2.4.4",
@@ -43,6 +43,9 @@
     "svg-sprite-loader": "^3.8.0",
     "vue-template-compiler": "^2.5.16"
   },
+  "publishConfig": {
+    "registry": "http://172.16.11.54:8889/repository/npm-release/"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -53,6 +56,7 @@
     "title": "D2Admin ICE",
     "screenshot": "http://fairyever.qiniudn.com/20180803175340.png"
   },
+  "buildConfig": {},
   "keywords": [
     "dashboard",
     "vue.js",
