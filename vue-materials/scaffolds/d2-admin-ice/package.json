@@ -1,6 +1,6 @@
 {
-  "name": "@oly-design/olydesign-admin-scaffold",
-  "version": "1.0.7",
+  "name": "@owd/olydesign-admin-scaffold",
+  "version": "0.0.2",
   "description": "该模板默认支持多页模式，内置登陆验证、数据持久化、主题系统、字体图标库、多模式页面组件以及常用操作的封装等。",
   "author": "liyang <1711467488@qq.com>",
   "homepage": "https://fairyever.gitee.io/d2-admin-ice-preview/",
@@ -43,7 +43,9 @@
     "svg-sprite-loader": "^3.8.0",
     "vue-template-compiler": "^2.5.16"
   },
-  "publishConfig": {},
+  "publishConfig": {
+    "registry": "http://172.16.11.54:8889/repository/npm-release/"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
