@@ -35,6 +35,9 @@
     "semver-regex": "^1.0.0",
     "uppercamelcase": "^3.0.0"
   },
+  "publishConfig": {
+    "registry": "http://172.16.11.54:8889/repository/npm-release/"
+  },
   "materials": [
     {
       "directory": "vue-materials",
@@ -42,6 +45,6 @@
     }
   ],
   "dependencies": {
-    "lerna": "^3.0.1"
+    "lerna": "^2.5.1"
   }
 }
